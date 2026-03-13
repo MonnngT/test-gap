@@ -664,4 +664,5 @@ elif app_mode == "📈 BI 数据分析看板":
                 )
                 st.plotly_chart(fig4b, use_container_width=True)
             else:
+
                 st.info("无有效模具号数据")
